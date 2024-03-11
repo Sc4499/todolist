@@ -1,0 +1,76 @@
+.mainWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.outerWrapper {
+    border: 1px solid #d2d2d7;
+    width: 400px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: centers;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    gap: 16px;
+}
+
+input {
+    width: calc(100% - 32px);
+    height: 36px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #d2d2d7;
+    padding: 4px 8px;
+}
+
+.searchBtn {
+    height: 44px;
+    width: 60px;
+    border-radius: 8px;
+    border: 1px solid #d2d2d7;
+}
+
+.mainBox {
+    padding: 8px 16px;
+    width: calc(100% - 32px);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d2d2d7;
+    margin-bottom: 16px;
+}
+
+.actionBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.editBtn {
+    background-color: green;
+    padding: 4px 8px;
+    border: 1px solid greenyellow;
+    color: #fff;
+    height: 36px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.deleteBtn {
+    background-color: red;
+    padding: 4px 8px;
+    border: 1px solid rgb(72, 3, 3);
+    color: #fff;
+    height: 36px;
+    border-radius: 8px;
+    outline: none;
+}
